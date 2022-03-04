@@ -1,0 +1,41 @@
+{
+    "name": "NeoPixelBT",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "neopixel-bluetoothallowed": "github:LaboratoryForPlayfulComputation/pxt-neopixel-bluetoothallowed#v0.0.2",
+        "BlockyTalky-BLE": "github:LaboratoryForPlayfulComputation/pxt-blockytalkyBLE#v0.0.21"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.0.18",
+        "tag": "v4.0.18",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/b9d2eeff8116b75fa50f663091b0e3acd800b7bc",
+        "target": "4.0.18",
+        "pxt": "7.0.14",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
